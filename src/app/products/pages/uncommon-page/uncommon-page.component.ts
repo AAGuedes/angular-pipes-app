@@ -37,4 +37,10 @@ export class UncommonPageComponent {
     this.clients.shift();
   }
 
+  //KeyValue
+  public person = {
+    name: 'John Doe',
+    age: 18,
+    address: 'New York, New York'
+  }
 }
